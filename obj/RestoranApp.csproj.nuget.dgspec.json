@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Lerning\\Програми\\Android\\RestoranApp\\RestoranApp.csproj": {}
+    "W:\\HW\\restaurantapp\\RestoranApp.csproj": {}
   },
   "projects": {
-    "E:\\Lerning\\Програми\\Android\\RestoranApp\\RestoranApp.csproj": {
+    "W:\\HW\\restaurantapp\\RestoranApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Lerning\\Програми\\Android\\RestoranApp\\RestoranApp.csproj",
+        "projectUniqueName": "W:\\HW\\restaurantapp\\RestoranApp.csproj",
         "projectName": "RestoranApp",
-        "projectPath": "E:\\Lerning\\Програми\\Android\\RestoranApp\\RestoranApp.csproj",
-        "packagesPath": "C:\\Users\\avema\\.nuget\\packages\\",
-        "outputPath": "E:\\Lerning\\Програми\\Android\\RestoranApp\\obj\\",
+        "projectPath": "W:\\HW\\restaurantapp\\RestoranApp.csproj",
+        "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
+        "outputPath": "W:\\HW\\restaurantapp\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\avema\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\andre\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -67,6 +67,18 @@
         "net8.0-android34.0": {
           "targetAlias": "net8.0-android",
           "dependencies": {
+            "CommunityToolkit.Maui": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Mapsui.Maui": {
+              "target": "Package",
+              "version": "[4.1.9, )"
+            },
+            "Mapsui.Tiling": {
+              "target": "Package",
+              "version": "[4.1.9, )"
+            },
             "Microsoft.Extensions.Logging.Debug": {
               "target": "Package",
               "version": "[8.0.1, )"
@@ -79,11 +91,23 @@
               "target": "Package",
               "version": "[8.0.100, )"
             },
+            "Microsoft.Maui.Controls.Maps": {
+              "target": "Package",
+              "version": "[9.0.70, )"
+            },
+            "Microsoft.Maui.Maps": {
+              "target": "Package",
+              "version": "[9.0.70, )"
+            },
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.15, )",
+              "version": "[8.0.13, )",
               "autoReferenced": true
+            },
+            "System.Net.Http.Json": {
+              "target": "Package",
+              "version": "[8.0.0, )"
             }
           },
           "imports": [
@@ -127,11 +151,23 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
         },
         "net8.0-ios18.0": {
           "targetAlias": "net8.0-ios",
           "dependencies": {
+            "CommunityToolkit.Maui": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Mapsui.Maui": {
+              "target": "Package",
+              "version": "[4.1.9, )"
+            },
+            "Mapsui.Tiling": {
+              "target": "Package",
+              "version": "[4.1.9, )"
+            },
             "Microsoft.Extensions.Logging.Debug": {
               "target": "Package",
               "version": "[8.0.1, )"
@@ -144,11 +180,23 @@
               "target": "Package",
               "version": "[8.0.100, )"
             },
+            "Microsoft.Maui.Controls.Maps": {
+              "target": "Package",
+              "version": "[9.0.70, )"
+            },
+            "Microsoft.Maui.Maps": {
+              "target": "Package",
+              "version": "[9.0.70, )"
+            },
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.15, )",
+              "version": "[8.0.13, )",
               "autoReferenced": true
+            },
+            "System.Net.Http.Json": {
+              "target": "Package",
+              "version": "[8.0.0, )"
             }
           },
           "imports": [
@@ -180,11 +228,23 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
         },
         "net8.0-maccatalyst18.0": {
           "targetAlias": "net8.0-maccatalyst",
           "dependencies": {
+            "CommunityToolkit.Maui": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Mapsui.Maui": {
+              "target": "Package",
+              "version": "[4.1.9, )"
+            },
+            "Mapsui.Tiling": {
+              "target": "Package",
+              "version": "[4.1.9, )"
+            },
             "Microsoft.Extensions.Logging.Debug": {
               "target": "Package",
               "version": "[8.0.1, )"
@@ -197,11 +257,23 @@
               "target": "Package",
               "version": "[8.0.100, )"
             },
+            "Microsoft.Maui.Controls.Maps": {
+              "target": "Package",
+              "version": "[9.0.70, )"
+            },
+            "Microsoft.Maui.Maps": {
+              "target": "Package",
+              "version": "[9.0.70, )"
+            },
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.15, )",
+              "version": "[8.0.13, )",
               "autoReferenced": true
+            },
+            "System.Net.Http.Json": {
+              "target": "Package",
+              "version": "[8.0.0, )"
             }
           },
           "imports": [
@@ -234,11 +306,23 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
         },
         "net8.0-windows10.0.19041": {
           "targetAlias": "net8.0-windows10.0.19041.0",
           "dependencies": {
+            "CommunityToolkit.Maui": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Mapsui.Maui": {
+              "target": "Package",
+              "version": "[4.1.9, )"
+            },
+            "Mapsui.Tiling": {
+              "target": "Package",
+              "version": "[4.1.9, )"
+            },
             "Microsoft.Extensions.Logging.Debug": {
               "target": "Package",
               "version": "[8.0.1, )"
@@ -250,6 +334,18 @@
             "Microsoft.Maui.Controls.Compatibility": {
               "target": "Package",
               "version": "[8.0.100, )"
+            },
+            "Microsoft.Maui.Controls.Maps": {
+              "target": "Package",
+              "version": "[9.0.70, )"
+            },
+            "Microsoft.Maui.Maps": {
+              "target": "Package",
+              "version": "[9.0.70, )"
+            },
+            "System.Net.Http.Json": {
+              "target": "Package",
+              "version": "[8.0.0, )"
             }
           },
           "imports": [
@@ -277,7 +373,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200\\RuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {

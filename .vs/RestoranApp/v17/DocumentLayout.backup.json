@@ -1,7 +1,52 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\Lerning\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\\Android\\RestoranApp\\",
-  "Documents": [],
+  "WorkspaceRootPath": "W:\\HW\\restaurantapp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E51C7267-2B77-4247-B145-6B7EF9EFF3D8}|RestoranApp.csproj|w:\\hw\\restaurantapp\\locationpopup.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E51C7267-2B77-4247-B145-6B7EF9EFF3D8}|RestoranApp.csproj|solutionrelative:locationpopup.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E51C7267-2B77-4247-B145-6B7EF9EFF3D8}|RestoranApp.csproj|w:\\hw\\restaurantapp\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E51C7267-2B77-4247-B145-6B7EF9EFF3D8}|RestoranApp.csproj|solutionrelative:mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E51C7267-2B77-4247-B145-6B7EF9EFF3D8}|RestoranApp.csproj|w:\\hw\\restaurantapp\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E51C7267-2B77-4247-B145-6B7EF9EFF3D8}|RestoranApp.csproj|solutionrelative:mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E51C7267-2B77-4247-B145-6B7EF9EFF3D8}|RestoranApp.csproj|w:\\hw\\restaurantapp\\platforms\\android\\mainapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E51C7267-2B77-4247-B145-6B7EF9EFF3D8}|RestoranApp.csproj|solutionrelative:platforms\\android\\mainapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E51C7267-2B77-4247-B145-6B7EF9EFF3D8}|RestoranApp.csproj|w:\\hw\\restaurantapp\\searchpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E51C7267-2B77-4247-B145-6B7EF9EFF3D8}|RestoranApp.csproj|solutionrelative:searchpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E51C7267-2B77-4247-B145-6B7EF9EFF3D8}|RestoranApp.csproj|w:\\hw\\restaurantapp\\searchpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E51C7267-2B77-4247-B145-6B7EF9EFF3D8}|RestoranApp.csproj|solutionrelative:searchpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E51C7267-2B77-4247-B145-6B7EF9EFF3D8}|RestoranApp.csproj|w:\\hw\\restaurantapp\\restoranapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E51C7267-2B77-4247-B145-6B7EF9EFF3D8}|RestoranApp.csproj|solutionrelative:restoranapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E51C7267-2B77-4247-B145-6B7EF9EFF3D8}|RestoranApp.csproj|w:\\hw\\restaurantapp\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E51C7267-2B77-4247-B145-6B7EF9EFF3D8}|RestoranApp.csproj|solutionrelative:mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E51C7267-2B77-4247-B145-6B7EF9EFF3D8}|RestoranApp.csproj|w:\\hw\\restaurantapp\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E51C7267-2B77-4247-B145-6B7EF9EFF3D8}|RestoranApp.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E51C7267-2B77-4247-B145-6B7EF9EFF3D8}|RestoranApp.csproj|w:\\hw\\restaurantapp\\platforms\\android\\androidmanifest.xml||{4E01A4BC-CFCF-452C-8C08-51352512D197}",
+      "RelativeMoniker": "D:0:0:{E51C7267-2B77-4247-B145-6B7EF9EFF3D8}|RestoranApp.csproj|solutionrelative:platforms\\android\\androidmanifest.xml||{4E01A4BC-CFCF-452C-8C08-51352512D197}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E51C7267-2B77-4247-B145-6B7EF9EFF3D8}|RestoranApp.csproj|w:\\hw\\restaurantapp\\locationpopup.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E51C7267-2B77-4247-B145-6B7EF9EFF3D8}|RestoranApp.csproj|solutionrelative:locationpopup.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,8 +54,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 10,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
@@ -21,11 +70,148 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainApplication.cs",
+              "DocumentMoniker": "W:\\HW\\restaurantapp\\Platforms\\Android\\MainApplication.cs",
+              "RelativeDocumentMoniker": "Platforms\\Android\\MainApplication.cs",
+              "ToolTip": "W:\\HW\\restaurantapp\\Platforms\\Android\\MainApplication.cs",
+              "RelativeToolTip": "Platforms\\Android\\MainApplication.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T14:52:15.212Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "W:\\HW\\restaurantapp\\App.xaml.cs",
+              "RelativeDocumentMoniker": "App.xaml.cs",
+              "ToolTip": "W:\\HW\\restaurantapp\\App.xaml.cs",
+              "RelativeToolTip": "App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T08:24:58.32Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SearchPage.xaml.cs",
+              "DocumentMoniker": "W:\\HW\\restaurantapp\\SearchPage.xaml.cs",
+              "RelativeDocumentMoniker": "SearchPage.xaml.cs",
+              "ToolTip": "W:\\HW\\restaurantapp\\SearchPage.xaml.cs",
+              "RelativeToolTip": "SearchPage.xaml.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAADwvwkAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T08:23:53.042Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SearchPage.xaml",
+              "DocumentMoniker": "W:\\HW\\restaurantapp\\SearchPage.xaml",
+              "RelativeDocumentMoniker": "SearchPage.xaml",
+              "ToolTip": "W:\\HW\\restaurantapp\\SearchPage.xaml",
+              "RelativeToolTip": "SearchPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-16T08:23:21.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "LocationPopup.xaml",
+              "DocumentMoniker": "W:\\HW\\restaurantapp\\LocationPopup.xaml",
+              "RelativeDocumentMoniker": "LocationPopup.xaml",
+              "ToolTip": "W:\\HW\\restaurantapp\\LocationPopup.xaml",
+              "RelativeToolTip": "LocationPopup.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-15T18:12:29.112Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RestoranApp.csproj",
+              "DocumentMoniker": "W:\\HW\\restaurantapp\\RestoranApp.csproj",
+              "RelativeDocumentMoniker": "RestoranApp.csproj",
+              "ToolTip": "W:\\HW\\restaurantapp\\RestoranApp.csproj",
+              "RelativeToolTip": "RestoranApp.csproj",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAEMAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-15T05:53:46.896Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LocationPopup.xaml.cs",
+              "DocumentMoniker": "W:\\HW\\restaurantapp\\LocationPopup.xaml.cs",
+              "RelativeDocumentMoniker": "LocationPopup.xaml.cs",
+              "ToolTip": "W:\\HW\\restaurantapp\\LocationPopup.xaml.cs",
+              "RelativeToolTip": "LocationPopup.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T18:13:02.224Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "W:\\HW\\restaurantapp\\MainPage.xaml",
+              "RelativeDocumentMoniker": "MainPage.xaml",
+              "ToolTip": "W:\\HW\\restaurantapp\\MainPage.xaml",
+              "RelativeToolTip": "MainPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-14T16:50:33.415Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "W:\\HW\\restaurantapp\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "MainPage.xaml.cs",
+              "ToolTip": "W:\\HW\\restaurantapp\\MainPage.xaml.cs",
+              "RelativeToolTip": "MainPage.xaml.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwAYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T16:17:46.035Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "W:\\HW\\restaurantapp\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "MauiProgram.cs",
+              "ToolTip": "W:\\HW\\restaurantapp\\MauiProgram.cs",
+              "RelativeToolTip": "MauiProgram.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T13:45:44.642Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AndroidManifest.xml",
+              "DocumentMoniker": "W:\\HW\\restaurantapp\\Platforms\\Android\\AndroidManifest.xml",
+              "RelativeDocumentMoniker": "Platforms\\Android\\AndroidManifest.xml",
+              "ToolTip": "W:\\HW\\restaurantapp\\Platforms\\Android\\AndroidManifest.xml",
+              "RelativeToolTip": "Platforms\\Android\\AndroidManifest.xml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2025-05-17T09:54:56.797Z"
             }
           ]
         }

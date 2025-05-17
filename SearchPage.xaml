@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RestoranApp.SearchPage"
+             BackgroundColor="White">
+
+    <Grid>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <!-- Main Content -->
+        <VerticalStackLayout Grid.Row="0" Padding="20">
+            <Label Text="Пошук" FontSize="32" FontAttributes="Bold" TextColor="#333" />
+        </VerticalStackLayout>
+
+        <!-- Bottom Navigation -->
+        <Grid Grid.Row="1" Padding="20" BackgroundColor="White">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <Button Grid.Column="0" Text="🏠" BackgroundColor="Transparent" Clicked="OnHomeButtonClicked" />
+            <Button Grid.Column="1" Text="🔍" BackgroundColor="Transparent" />
+            <Button Grid.Column="2" Text="📅" BackgroundColor="Transparent" />
+            <Button Grid.Column="3" Text="🛒" BackgroundColor="Transparent" />
+            <Button Grid.Column="4" Text="🔔" BackgroundColor="Transparent" />
+        </Grid>
+    </Grid>
+
+</ContentPage>

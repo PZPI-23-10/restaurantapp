@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RestoranApp.ReservationPopup"
+             BackgroundColor="#000000AA"
+             Padding="0">
+
+    <Grid VerticalOptions="Center" HorizontalOptions="Center">
+        <Frame BackgroundColor="White" CornerRadius="20" Padding="20" WidthRequest="300">
+            <VerticalStackLayout Spacing="20">
+                <Label Text="Виберіть кількість гостей" FontSize="Medium" />
+
+                <Picker x:Name="PeoplePicker" Title="Кількість гостей" />
+
+                <Label Text="Виберіть дату" FontSize="Medium" />
+
+                <DatePicker x:Name="DateSelector" />
+
+                <Label Text="Виберіть час" FontSize="Medium" />
+
+                <HorizontalStackLayout Spacing="10">
+                    <Button Text="OK" BackgroundColor="#4CAF50" TextColor="White" Clicked="OnConfirmClicked" />
+                    <Button Text="Скасувати" BackgroundColor="#f44336" TextColor="White" Clicked="OnCancelClicked" />
+                </HorizontalStackLayout>
+            </VerticalStackLayout>
+        </Frame>
+    </Grid>
+
+</ContentPage>

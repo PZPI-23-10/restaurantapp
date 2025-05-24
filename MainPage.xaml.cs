@@ -21,6 +21,15 @@ namespace RestoranApp
             await Navigation.PushModalAsync(new ReservationPopup());
         }
 
+        private void OnHeartClicked(object sender, EventArgs e)
+        {
+            if (sender is Button heartButton)
+            {
+                heartButton.Text = heartButton.Text == "♡" ? "❤️" : "♡";
+            }
+        }
+
+
         private async void OnLocationButtonClicked(object sender, EventArgs e)
         {
             var locationPopup = new LocationPopup();

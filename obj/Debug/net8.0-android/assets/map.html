@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Map</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <style>
+        html, body, #map {
+            height: 100%;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <div id="map"></div>
+    <script>
+        // Ініціалізація карти
+        const map = L.map('map').setView([50.4501, 30.5234], 13);
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            maxZoom: 19,
+            attribution: '© OpenStreetMap'
+        }).addTo(map);
+
+        // Додаємо маркери
+        const restaurants = [
+            { name: 'Пузата хата', coords: [50.4477, 30.5133] },
+            { name: 'Італійська хата', coords: [50.4520, 30.5162] }
+        ];
+        restaurants.forEach(r => {
+            L.marker(r.coords).addTo(map).bindPopup(r.name);
+        });
+
+        // Функція для переміщення карти
+        function moveToCity(lat, lng) {
+            map.setView([lat, lng], 13);
+            L.marker([lat, lng]).addTo(map).bindPopup("Результат пошуку").openPopup();
+        }
+
+        // Слухаємо повідомлення від MAUI
+        window.addEventListener("message", function (event) {
+            try {
+                const data = JSON.parse(event.data);
+                if (data.type === "search" && data.lat && data.lng) {
+                    moveToCity(data.lat, data.lng);
+                }
+            } catch (e) {
+                console.error("Invalid message", e);
+            }
+        });
+    </script>
+</body>
+</html>

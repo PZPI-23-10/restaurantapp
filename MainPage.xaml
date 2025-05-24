@@ -36,18 +36,74 @@
             </HorizontalStackLayout>
 
             <!-- Products Section -->
-            <Label Text="Оберіть улюблені продукти" FontSize="20" FontAttributes="Bold" Margin="0,0,0,10" TextColor="#333" />
+            <Label Text="Оберіть улюблені продукти" FontSize="20" FontAttributes="Bold" Margin="0,4,10,10" TextColor="#333" />
             <ScrollView Orientation="Horizontal" Margin="0,0,0,20">
                 <HorizontalStackLayout Spacing="15">
-                    <Frame WidthRequest="150" HeightRequest="200" BackgroundColor="#ffffff" CornerRadius="15" Padding="0" HasShadow="True">
-                        <Image Source="sample1.jpg" Aspect="AspectFill" />
-                    </Frame>
-                    <Frame WidthRequest="150" HeightRequest="200" BackgroundColor="#ffffff" CornerRadius="15" Padding="0" HasShadow="True">
-                        <Image Source="sample2.jpg" Aspect="AspectFill" />
-                    </Frame>
-                    <Frame WidthRequest="150" HeightRequest="200" BackgroundColor="#ffffff" CornerRadius="15" Padding="0" HasShadow="True">
-                        <Image Source="sample3.jpg" Aspect="AspectFill" />
-                    </Frame>
+                    <!-- Product 1 -->
+                    <VerticalStackLayout Spacing="10">
+                        <Frame WidthRequest="150" HeightRequest="200" BackgroundColor="#ffffff" CornerRadius="15" Padding="0" HasShadow="True">
+                            <Image Source="https://alfresco.com.ua/wp-content/uploads/2025/02/alfresco-rest-25.jpg" Aspect="AspectFill" />
+                        </Frame>
+                        <HorizontalStackLayout Spacing="10" HorizontalOptions="Center">
+                            <Button Text="📅" FontSize="18"  BackgroundColor="Wheat" />
+                            <Button Text="♡" Clicked="OnHeartClicked" FontSize="18" TextColor="Red" BackgroundColor= "Wheat"  />
+                        </HorizontalStackLayout>
+                    </VerticalStackLayout>
+
+                    <!-- Product 2 -->
+                    <VerticalStackLayout Spacing="10">
+                        <Frame WidthRequest="150" HeightRequest="200" BackgroundColor="#ffffff" CornerRadius="15" Padding="0" HasShadow="True">
+                            <Image Source="https://img.freepik.com/free-photo/restaurant-interior_1127-3392.jpg?" Aspect="AspectFill" />
+                        </Frame>
+                        <HorizontalStackLayout Spacing="10" HorizontalOptions="Center">
+                            <Button Text="📅" FontSize="18"  BackgroundColor="Wheat" />
+                            <Button Text="♡" Clicked="OnHeartClicked" FontSize="18" TextColor="Red" BackgroundColor= "Wheat" />
+                        </HorizontalStackLayout>
+                    </VerticalStackLayout>
+
+                    <!-- Product 3 -->
+                    <VerticalStackLayout Spacing="10">
+                        <Frame WidthRequest="150" HeightRequest="200" BackgroundColor="#ffffff" CornerRadius="15" Padding="0" HasShadow="True">
+                            <Image Source="https://st4.depositphotos.com/8911320/31209/i/450/depositphotos_312096012-stock-photo-render-wooden-style-cafe-restaurant.jpg" Aspect="AspectFill" />
+                        </Frame>
+                        <HorizontalStackLayout Spacing="10" HorizontalOptions="Center">
+                            <Button Text="📅" FontSize="18"  BackgroundColor="Wheat" />
+                            <Button Text="♡" Clicked="OnHeartClicked" FontSize="18" TextColor="Red" BackgroundColor= "Wheat" />
+                        </HorizontalStackLayout>
+                    </VerticalStackLayout>
+
+                    <!-- Product 4 -->
+                    <VerticalStackLayout Spacing="10">
+                        <Frame WidthRequest="150" HeightRequest="200" BackgroundColor="#ffffff" CornerRadius="15" Padding="0" HasShadow="True">
+                            <Image Source="https://st3.depositphotos.com/9880800/18500/i/450/depositphotos_185007302-stock-photo-view-stylish-empty-cafe-arranged.jpg" Aspect="AspectFill" />
+                        </Frame>
+                        <HorizontalStackLayout Spacing="10" HorizontalOptions="Center">
+                            <Button Text="📅" FontSize="18"  BackgroundColor="Wheat" />
+                            <Button Text="♡" Clicked="OnHeartClicked" FontSize="18" TextColor="Red" BackgroundColor= "Wheat" />
+                        </HorizontalStackLayout>
+                    </VerticalStackLayout>
+
+                    <!-- Product 5 -->
+                    <VerticalStackLayout Spacing="10">
+                        <Frame WidthRequest="150" HeightRequest="200" BackgroundColor="#ffffff" CornerRadius="15" Padding="0" HasShadow="True">
+                            <Image Source="https://img.freepik.com/free-photo/restaurant-hall-with-red-brick-walls-wooden-tables-pipes-ceiling_140725-8504.jpg" Aspect="AspectFill" />
+                        </Frame>
+                        <HorizontalStackLayout Spacing="10" HorizontalOptions="Center">
+                            <Button Text="📅" FontSize="18"  BackgroundColor="Wheat" />
+                            <Button Text="♡" Clicked="OnHeartClicked" FontSize="18" TextColor="Red" BackgroundColor= "Wheat" />
+                        </HorizontalStackLayout>
+                    </VerticalStackLayout>
+
+                    <!-- Product 6 -->
+                    <VerticalStackLayout Spacing="10">
+                        <Frame WidthRequest="150" HeightRequest="200" BackgroundColor="#ffffff" CornerRadius="15" Padding="0" HasShadow="True">
+                            <Image Source="https://images.pexels.com/photos/941861/pexels-photo-941861.jpeg" Aspect="AspectFill" />
+                        </Frame>
+                        <HorizontalStackLayout Spacing="10" HorizontalOptions="Center">
+                            <Button Text="📅" FontSize="18"  BackgroundColor="Wheat" />
+                            <Button Text="❤️" Clicked="OnHeartClicked" FontSize="18"  BackgroundColor= "Wheat" />
+                        </HorizontalStackLayout>
+                    </VerticalStackLayout>
                 </HorizontalStackLayout>
             </ScrollView>
         </VerticalStackLayout>
@@ -64,7 +120,7 @@
             <Button Grid.Column="0" Text="🏠" BackgroundColor="Transparent" />
             <Button Grid.Column="1" Text="🔍" BackgroundColor="Transparent" Clicked="OnSearchButtonClicked" />
             <Button Grid.Column="2" Text="📅" BackgroundColor="Transparent" />
-            <Button Grid.Column="3" Text="🛒" BackgroundColor="Transparent" />
+            <Button Grid.Column="3" Text="❤️" BackgroundColor="Transparent" />
             <Button Grid.Column="4" Text="🔔" BackgroundColor="Transparent" />
         </Grid>
     </Grid>

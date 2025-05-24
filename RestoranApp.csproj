@@ -57,6 +57,10 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <AndroidAsset Include="Platforms\Android\Assets\map.html" />
+	</ItemGroup>
+
+	<ItemGroup>
 		<PackageReference Include="CommunityToolkit.Maui" Version="8.0.0" />
 		<PackageReference Include="Mapsui.Maui" Version="4.1.9" />
 		<PackageReference Include="Mapsui.Tiling" Version="4.1.9" />

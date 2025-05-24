@@ -1,7 +1,76 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\Lerning\\\u041F\u0440\u043E\u0433\u0440\u0430\u043C\u0438\\Android\\RestoranApp\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\maksk\\OneDrive\\Documents\\GitHub\\restaurantapp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E51C7267-2B77-4247-B145-6B7EF9EFF3D8}|RestoranApp.csproj|c:\\users\\maksk\\onedrive\\documents\\github\\restaurantapp\\signup.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E51C7267-2B77-4247-B145-6B7EF9EFF3D8}|RestoranApp.csproj|solutionrelative:signup.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E51C7267-2B77-4247-B145-6B7EF9EFF3D8}|RestoranApp.csproj|c:\\users\\maksk\\onedrive\\documents\\github\\restaurantapp\\platforms\\android\\webauthenticationcallbackactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E51C7267-2B77-4247-B145-6B7EF9EFF3D8}|RestoranApp.csproj|solutionrelative:platforms\\android\\webauthenticationcallbackactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E51C7267-2B77-4247-B145-6B7EF9EFF3D8}|RestoranApp.csproj|c:\\users\\maksk\\onedrive\\documents\\github\\restaurantapp\\platforms\\android\\client_secret_336693737634-ri7bdmguvvj6kbb6po3r2dg43v6aa0vt.apps.googleusercontent.com.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E51C7267-2B77-4247-B145-6B7EF9EFF3D8}|RestoranApp.csproj|solutionrelative:platforms\\android\\client_secret_336693737634-ri7bdmguvvj6kbb6po3r2dg43v6aa0vt.apps.googleusercontent.com.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E51C7267-2B77-4247-B145-6B7EF9EFF3D8}|RestoranApp.csproj|c:\\users\\maksk\\onedrive\\documents\\github\\restaurantapp\\signup.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E51C7267-2B77-4247-B145-6B7EF9EFF3D8}|RestoranApp.csproj|solutionrelative:signup.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E51C7267-2B77-4247-B145-6B7EF9EFF3D8}|RestoranApp.csproj|c:\\users\\maksk\\onedrive\\documents\\github\\restaurantapp\\signin.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E51C7267-2B77-4247-B145-6B7EF9EFF3D8}|RestoranApp.csproj|solutionrelative:signin.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E51C7267-2B77-4247-B145-6B7EF9EFF3D8}|RestoranApp.csproj|c:\\users\\maksk\\onedrive\\documents\\github\\restaurantapp\\signup2.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E51C7267-2B77-4247-B145-6B7EF9EFF3D8}|RestoranApp.csproj|solutionrelative:signup2.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E51C7267-2B77-4247-B145-6B7EF9EFF3D8}|RestoranApp.csproj|c:\\users\\maksk\\onedrive\\documents\\github\\restaurantapp\\signup2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E51C7267-2B77-4247-B145-6B7EF9EFF3D8}|RestoranApp.csproj|solutionrelative:signup2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E51C7267-2B77-4247-B145-6B7EF9EFF3D8}|RestoranApp.csproj|c:\\users\\maksk\\onedrive\\documents\\github\\restaurantapp\\platforms\\android\\mainapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E51C7267-2B77-4247-B145-6B7EF9EFF3D8}|RestoranApp.csproj|solutionrelative:platforms\\android\\mainapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E51C7267-2B77-4247-B145-6B7EF9EFF3D8}|RestoranApp.csproj|c:\\users\\maksk\\onedrive\\documents\\github\\restaurantapp\\platforms\\android\\mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E51C7267-2B77-4247-B145-6B7EF9EFF3D8}|RestoranApp.csproj|solutionrelative:platforms\\android\\mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E51C7267-2B77-4247-B145-6B7EF9EFF3D8}|RestoranApp.csproj|c:\\users\\maksk\\onedrive\\documents\\github\\restaurantapp\\platforms\\android\\androidmanifest.xml||{4E01A4BC-CFCF-452C-8C08-51352512D197}",
+      "RelativeMoniker": "D:0:0:{E51C7267-2B77-4247-B145-6B7EF9EFF3D8}|RestoranApp.csproj|solutionrelative:platforms\\android\\androidmanifest.xml||{4E01A4BC-CFCF-452C-8C08-51352512D197}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E51C7267-2B77-4247-B145-6B7EF9EFF3D8}|RestoranApp.csproj|c:\\users\\maksk\\onedrive\\documents\\github\\restaurantapp\\signin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E51C7267-2B77-4247-B145-6B7EF9EFF3D8}|RestoranApp.csproj|solutionrelative:signin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E51C7267-2B77-4247-B145-6B7EF9EFF3D8}|RestoranApp.csproj|c:\\users\\maksk\\onedrive\\documents\\github\\restaurantapp\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E51C7267-2B77-4247-B145-6B7EF9EFF3D8}|RestoranApp.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E51C7267-2B77-4247-B145-6B7EF9EFF3D8}|RestoranApp.csproj|c:\\users\\maksk\\onedrive\\documents\\github\\restaurantapp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E51C7267-2B77-4247-B145-6B7EF9EFF3D8}|RestoranApp.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E51C7267-2B77-4247-B145-6B7EF9EFF3D8}|RestoranApp.csproj|c:\\users\\maksk\\onedrive\\documents\\github\\restaurantapp\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E51C7267-2B77-4247-B145-6B7EF9EFF3D8}|RestoranApp.csproj|solutionrelative:appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E51C7267-2B77-4247-B145-6B7EF9EFF3D8}|RestoranApp.csproj|c:\\users\\maksk\\onedrive\\documents\\github\\restaurantapp\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E51C7267-2B77-4247-B145-6B7EF9EFF3D8}|RestoranApp.csproj|solutionrelative:mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E51C7267-2B77-4247-B145-6B7EF9EFF3D8}|RestoranApp.csproj|c:\\users\\maksk\\onedrive\\documents\\github\\restaurantapp\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E51C7267-2B77-4247-B145-6B7EF9EFF3D8}|RestoranApp.csproj|solutionrelative:mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E51C7267-2B77-4247-B145-6B7EF9EFF3D8}|RestoranApp.csproj|c:\\users\\maksk\\onedrive\\documents\\github\\restaurantapp\\restoranapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E51C7267-2B77-4247-B145-6B7EF9EFF3D8}|RestoranApp.csproj|solutionrelative:restoranapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +78,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Bookmark",
@@ -24,8 +93,214 @@
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WebAuthenticationCallbackActivity.cs",
+              "DocumentMoniker": "C:\\Users\\maksk\\OneDrive\\Documents\\GitHub\\restaurantapp\\Platforms\\Android\\WebAuthenticationCallbackActivity.cs",
+              "RelativeDocumentMoniker": "Platforms\\Android\\WebAuthenticationCallbackActivity.cs",
+              "ToolTip": "C:\\Users\\maksk\\OneDrive\\Documents\\GitHub\\restaurantapp\\Platforms\\Android\\WebAuthenticationCallbackActivity.cs",
+              "RelativeToolTip": "Platforms\\Android\\WebAuthenticationCallbackActivity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T14:20:25.658Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SignIn.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\maksk\\OneDrive\\Documents\\GitHub\\restaurantapp\\SignIn.xaml.cs",
+              "RelativeDocumentMoniker": "SignIn.xaml.cs",
+              "ToolTip": "C:\\Users\\maksk\\OneDrive\\Documents\\GitHub\\restaurantapp\\SignIn.xaml.cs",
+              "RelativeToolTip": "SignIn.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T17:00:27.527Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SignUp2.xaml",
+              "DocumentMoniker": "C:\\Users\\maksk\\OneDrive\\Documents\\GitHub\\restaurantapp\\SignUp2.xaml",
+              "RelativeDocumentMoniker": "SignUp2.xaml",
+              "ToolTip": "C:\\Users\\maksk\\OneDrive\\Documents\\GitHub\\restaurantapp\\SignUp2.xaml",
+              "RelativeToolTip": "SignUp2.xaml",
+              "ViewState": "AgIAAKUAAAAAAAAAAAAAALcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-15T15:54:48.36Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SignUp2.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\maksk\\OneDrive\\Documents\\GitHub\\restaurantapp\\SignUp2.xaml.cs",
+              "RelativeDocumentMoniker": "SignUp2.xaml.cs",
+              "ToolTip": "C:\\Users\\maksk\\OneDrive\\Documents\\GitHub\\restaurantapp\\SignUp2.xaml.cs",
+              "RelativeToolTip": "SignUp2.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T16:22:50.432Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SignUp.xaml",
+              "DocumentMoniker": "C:\\Users\\maksk\\OneDrive\\Documents\\GitHub\\restaurantapp\\SignUp.xaml",
+              "RelativeDocumentMoniker": "SignUp.xaml",
+              "ToolTip": "C:\\Users\\maksk\\OneDrive\\Documents\\GitHub\\restaurantapp\\SignUp.xaml",
+              "RelativeToolTip": "SignUp.xaml",
+              "ViewState": "AgIAAHEAAAAAAAAAAAAAAH4AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-14T17:20:48.924Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AppShell.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\maksk\\OneDrive\\Documents\\GitHub\\restaurantapp\\AppShell.xaml.cs",
+              "RelativeDocumentMoniker": "AppShell.xaml.cs",
+              "ToolTip": "C:\\Users\\maksk\\OneDrive\\Documents\\GitHub\\restaurantapp\\AppShell.xaml.cs",
+              "RelativeToolTip": "AppShell.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T17:26:19.4Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MainActivity.cs",
+              "DocumentMoniker": "C:\\Users\\maksk\\OneDrive\\Documents\\GitHub\\restaurantapp\\Platforms\\Android\\MainActivity.cs",
+              "RelativeDocumentMoniker": "Platforms\\Android\\MainActivity.cs",
+              "ToolTip": "C:\\Users\\maksk\\OneDrive\\Documents\\GitHub\\restaurantapp\\Platforms\\Android\\MainActivity.cs",
+              "RelativeToolTip": "Platforms\\Android\\MainActivity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T17:01:45.718Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MainApplication.cs",
+              "DocumentMoniker": "C:\\Users\\maksk\\OneDrive\\Documents\\GitHub\\restaurantapp\\Platforms\\Android\\MainApplication.cs",
+              "RelativeDocumentMoniker": "Platforms\\Android\\MainApplication.cs",
+              "ToolTip": "C:\\Users\\maksk\\OneDrive\\Documents\\GitHub\\restaurantapp\\Platforms\\Android\\MainApplication.cs",
+              "RelativeToolTip": "Platforms\\Android\\MainApplication.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T17:01:43.695Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SignUp.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\maksk\\OneDrive\\Documents\\GitHub\\restaurantapp\\SignUp.xaml.cs",
+              "RelativeDocumentMoniker": "SignUp.xaml.cs",
+              "ToolTip": "C:\\Users\\maksk\\OneDrive\\Documents\\GitHub\\restaurantapp\\SignUp.xaml.cs",
+              "RelativeToolTip": "SignUp.xaml.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAwE0AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T17:20:59.773Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "client_secret_336693737634-ri7bdmguvvj6kbb6po3r2dg43v6aa0vt.apps.googleusercontent.com.json",
+              "DocumentMoniker": "C:\\Users\\maksk\\OneDrive\\Documents\\GitHub\\restaurantapp\\Platforms\\Android\\client_secret_336693737634-ri7bdmguvvj6kbb6po3r2dg43v6aa0vt.apps.googleusercontent.com.json",
+              "RelativeDocumentMoniker": "Platforms\\Android\\client_secret_336693737634-ri7bdmguvvj6kbb6po3r2dg43v6aa0vt.apps.googleusercontent.com.json",
+              "ToolTip": "C:\\Users\\maksk\\OneDrive\\Documents\\GitHub\\restaurantapp\\Platforms\\Android\\client_secret_336693737634-ri7bdmguvvj6kbb6po3r2dg43v6aa0vt.apps.googleusercontent.com.json",
+              "RelativeToolTip": "Platforms\\Android\\client_secret_336693737634-ri7bdmguvvj6kbb6po3r2dg43v6aa0vt.apps.googleusercontent.com.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-16T13:59:12.912Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SignIn.xaml",
+              "DocumentMoniker": "C:\\Users\\maksk\\OneDrive\\Documents\\GitHub\\restaurantapp\\SignIn.xaml",
+              "RelativeDocumentMoniker": "SignIn.xaml",
+              "ToolTip": "C:\\Users\\maksk\\OneDrive\\Documents\\GitHub\\restaurantapp\\SignIn.xaml",
+              "RelativeToolTip": "SignIn.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-15T16:53:21.97Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AndroidManifest.xml",
+              "DocumentMoniker": "C:\\Users\\maksk\\OneDrive\\Documents\\GitHub\\restaurantapp\\Platforms\\Android\\AndroidManifest.xml",
+              "RelativeDocumentMoniker": "Platforms\\Android\\AndroidManifest.xml",
+              "ToolTip": "C:\\Users\\maksk\\OneDrive\\Documents\\GitHub\\restaurantapp\\Platforms\\Android\\AndroidManifest.xml",
+              "RelativeToolTip": "Platforms\\Android\\AndroidManifest.xml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2025-05-16T13:39:36.582Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\maksk\\OneDrive\\Documents\\GitHub\\restaurantapp\\App.xaml.cs",
+              "RelativeDocumentMoniker": "App.xaml.cs",
+              "ToolTip": "C:\\Users\\maksk\\OneDrive\\Documents\\GitHub\\restaurantapp\\App.xaml.cs",
+              "RelativeToolTip": "App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T17:24:31.815Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "RestoranApp.csproj",
+              "DocumentMoniker": "C:\\Users\\maksk\\OneDrive\\Documents\\GitHub\\restaurantapp\\RestoranApp.csproj",
+              "RelativeDocumentMoniker": "RestoranApp.csproj",
+              "ToolTip": "C:\\Users\\maksk\\OneDrive\\Documents\\GitHub\\restaurantapp\\RestoranApp.csproj",
+              "RelativeToolTip": "RestoranApp.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-14T17:17:24.719Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\maksk\\OneDrive\\Documents\\GitHub\\restaurantapp\\MainPage.xaml",
+              "RelativeDocumentMoniker": "MainPage.xaml",
+              "ToolTip": "C:\\Users\\maksk\\OneDrive\\Documents\\GitHub\\restaurantapp\\MainPage.xaml",
+              "RelativeToolTip": "MainPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-14T17:04:36.143Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\maksk\\OneDrive\\Documents\\GitHub\\restaurantapp\\App.xaml",
+              "RelativeDocumentMoniker": "App.xaml",
+              "ToolTip": "C:\\Users\\maksk\\OneDrive\\Documents\\GitHub\\restaurantapp\\App.xaml",
+              "RelativeToolTip": "App.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-14T17:04:32.773Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "C:\\Users\\maksk\\OneDrive\\Documents\\GitHub\\restaurantapp\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "MauiProgram.cs",
+              "ToolTip": "C:\\Users\\maksk\\OneDrive\\Documents\\GitHub\\restaurantapp\\MauiProgram.cs",
+              "RelativeToolTip": "MauiProgram.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T17:01:31.575Z"
             }
           ]
         }

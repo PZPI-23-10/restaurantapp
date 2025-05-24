@@ -1,0 +1,164 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RestoranApp.SignUp"
+             Title="">
+
+    <AbsoluteLayout Padding="20">
+
+        <!-- Текст, позиціонується по центру -->
+        <Label Text="РЕСТОРАН"
+               FontSize="50"
+               HorizontalOptions="Center"
+               VerticalOptions="Center"
+               AbsoluteLayout.LayoutBounds="0.5, 0.05, AutoSize, AutoSize"
+               AbsoluteLayout.LayoutFlags="PositionProportional" />
+
+        <!-- Переміщена кнопка з точними координатами -->
+        <Button Text="Продовжити"
+                BackgroundColor="Black"
+                TextColor="White"
+                WidthRequest="300"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                AbsoluteLayout.LayoutBounds="0.5, 0.39, AutoSize, AutoSize"
+                AbsoluteLayout.LayoutFlags="PositionProportional"
+                Clicked="OnLoginClicked"/>
+
+        <Entry Placeholder="Введіть email"
+               x:Name="emailEntry"
+               Keyboard="Email"
+               TextColor="Black"
+               PlaceholderColor="Gray"
+               Margin="0,10"
+               WidthRequest="300"
+               AbsoluteLayout.LayoutBounds="0.5, 0.3, AutoSize, AutoSize"
+               AbsoluteLayout.LayoutFlags="PositionProportional"
+       />
+        <Label Text="Вже маєш аккаунт?"
+       FontSize="15"
+       HorizontalOptions="Center"
+       VerticalOptions="Center"
+       AbsoluteLayout.LayoutBounds="0.5, 0.47, AutoSize, AutoSize"
+       AbsoluteLayout.LayoutFlags="PositionProportional" />
+
+        <Button Text="Увійти"
+        BackgroundColor="Black"
+        Clicked="OnSignInClicked"
+        TextColor="White"
+        WidthRequest="300"
+        HorizontalOptions="Center"
+        VerticalOptions="Center"
+        AbsoluteLayout.LayoutBounds="0.5, 0.56, AutoSize, AutoSize"
+        AbsoluteLayout.LayoutFlags="PositionProportional" />
+
+        <Label Text="Або"
+FontSize="15"
+HorizontalOptions="Center"
+VerticalOptions="Center"
+AbsoluteLayout.LayoutBounds="0.5, 0.64, AutoSize, AutoSize"
+AbsoluteLayout.LayoutFlags="PositionProportional"
+               />
+
+        <Label FontSize="15"
+               WidthRequest="400"
+               HorizontalOptions="Center"
+                VerticalOptions="Center"
+               HorizontalTextAlignment="Center"
+                VerticalTextAlignment="Center"
+               AbsoluteLayout.LayoutBounds="0.5, 1, AutoSize, AutoSize"
+                AbsoluteLayout.LayoutFlags="PositionProportional"
+               >
+            <Label.FormattedText>
+                <FormattedString>
+                    <Span Text=" Натиснувши «Продовжити», ви погоджуєтеся з нашими " />
+                    <Span Text="Умовами обслуговування"
+                  FontAttributes="Bold"
+                  TextColor="Blue">
+                        <Span.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="OnTermsTapped" />
+                        </Span.GestureRecognizers>
+                    </Span>
+
+                    <Span Text=" та " />
+
+                    <Span Text="Політикою конфіденційності"
+                  FontAttributes="Bold"
+                  TextColor="Blue">
+                        <Span.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="OnPrivacyTapped" />
+                        </Span.GestureRecognizers>
+                    </Span>
+                </FormattedString>
+            </Label.FormattedText>
+        </Label>
+
+       
+        <Image
+    Source="google.jpg"
+            WidthRequest="55"
+    HeightRequest="185"
+    Aspect="AspectFit"
+            AbsoluteLayout.LayoutBounds="0.09, 0.76, AutoSize, AutoSize"
+ AbsoluteLayout.LayoutFlags="PositionProportional"
+     />
+
+        
+        
+        <Image
+   Source="facebook.png"
+           WidthRequest="30"
+   HeightRequest="185"
+   Aspect="AspectFit"
+           AbsoluteLayout.LayoutBounds="0.12, 0.86, AutoSize, AutoSize"
+AbsoluteLayout.LayoutFlags="PositionProportional"
+    />
+
+
+
+        <Label Text="Увійти за допомогою Google"
+       FontAttributes="Bold"
+       TextColor="Black"
+       FontSize="15"
+       HorizontalOptions="Center"
+       VerticalOptions="Center"
+       AbsoluteLayout.LayoutBounds="0.54, 0.704, AutoSize, AutoSize"
+       AbsoluteLayout.LayoutFlags="PositionProportional">
+    <Label.GestureRecognizers>
+        <TapGestureRecognizer Tapped="GoogleTapped" />
+    </Label.GestureRecognizers>
+</Label>
+
+
+        <Label   Text="Увійти за допомогою Facebook"
+         FontAttributes="Bold"
+         TextColor="Black"
+         FontSize="15"
+         HorizontalOptions="Center"
+         VerticalOptions="Center"
+         AbsoluteLayout.LayoutBounds="0.6, 0.785, AutoSize, AutoSize"
+         AbsoluteLayout.LayoutFlags="PositionProportional">
+            <Label.GestureRecognizers>
+                <TapGestureRecognizer Tapped="FacebookTapped" />
+            </Label.GestureRecognizers>
+        </Label>
+
+        <Label Text="Cтворіть обліковий запис"
+FontSize="20"
+               FontAttributes="Bold"
+HorizontalOptions="Center"
+VerticalOptions="Center"
+AbsoluteLayout.LayoutBounds="0.5, 0.19, AutoSize, AutoSize"
+AbsoluteLayout.LayoutFlags="PositionProportional"
+               />
+        <Label Text="Введіть вашу пошту для реєстрації"
+FontSize="15"
+HorizontalOptions="Center"
+VerticalOptions="Center"
+AbsoluteLayout.LayoutBounds="0.5, 0.225, AutoSize, AutoSize"
+AbsoluteLayout.LayoutFlags="PositionProportional"
+               />
+
+
+
+    </AbsoluteLayout>
+</ContentPage>

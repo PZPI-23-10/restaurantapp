@@ -1,0 +1,68 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RestoranApp.SavedRestaurant"
+             Title="Улюблені ресторани"
+             BackgroundColor="White">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <!-- Список улюблених ресторанів -->
+        <CollectionView x:Name="SavedRestaurantsView"
+                        Grid.Row="0"
+                        ItemsSource="{Binding SavedRestaurants}"
+                        Margin="10">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Frame CornerRadius="10" Padding="10" Margin="5" BorderColor="LightGray">
+                        <Grid ColumnSpacing="10">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="100" />
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="Auto" />
+                            </Grid.ColumnDefinitions>
+
+                            <!-- Фото -->
+                            <Image Source="{Binding ImageUrl}" WidthRequest="100" HeightRequest="100" Aspect="AspectFill" />
+
+                            <!-- Назва та опис -->
+                            <VerticalStackLayout Grid.Column="1">
+                                <Label Text="{Binding Name}" FontAttributes="Bold" FontSize="16" />
+                                <Label Text="{Binding Description}" FontSize="14" LineBreakMode="WordWrap" />
+                            </VerticalStackLayout>
+
+                            <!-- ❤️ Кнопка -->
+                            <Button Text="❤️"
+                FontSize="24"
+                BackgroundColor="Transparent"
+                TextColor="Red"
+                Grid.Column="2"
+                Clicked="OnUnfavoriteClicked"
+                CommandParameter="{Binding}" />
+                        </Grid>
+                    </Frame>
+
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+
+        <!-- Нижній бар -->
+        <Grid Grid.Row="1" Padding="20" BackgroundColor="White">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <Button Grid.Column="0" Text="🏠" FontSize="20" BackgroundColor="Transparent" Clicked="OnHomeButtonClicked" />
+            <Button Grid.Column="1" Text="🔍" FontSize="20" BackgroundColor="Transparent" Clicked="OnSearchButtonClicked" />
+            <Button Grid.Column="2" Text="📅" FontSize="20" BackgroundColor="Transparent" />
+            <Button Grid.Column="3" Text="❤️" FontSize="20" BackgroundColor="Transparent" />
+            <Button Grid.Column="4" Text="🔔" FontSize="20" BackgroundColor="Transparent" />
+        </Grid>
+    </Grid>
+</ContentPage>

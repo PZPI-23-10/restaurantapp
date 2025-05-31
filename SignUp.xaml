@@ -158,7 +158,5 @@ AbsoluteLayout.LayoutBounds="0.5, 0.225, AutoSize, AutoSize"
 AbsoluteLayout.LayoutFlags="PositionProportional"
                />
 
-
-
     </AbsoluteLayout>
 </ContentPage>

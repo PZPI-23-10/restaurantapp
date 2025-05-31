@@ -2,7 +2,8 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="RestoranApp.MainPage"
-             BackgroundColor="White">
+             BackgroundColor="White"
+             Title="Головна">
 
     <Grid>
         <Grid.RowDefinitions>
@@ -11,104 +12,50 @@
             <RowDefinition Height="Auto" />
         </Grid.RowDefinitions>
 
-        <!-- Main Content -->
+        <!-- Верхній блок -->
         <VerticalStackLayout Padding="20" Grid.Row="0">
-            <!-- Header Section -->
             <Label Text="Добрий день" FontSize="32" FontAttributes="Bold" Margin="0,0,0,20" TextColor="#333" />
 
-            <!-- Date and Location Buttons -->
+            <!-- Кнопки дати та локації -->
             <HorizontalStackLayout Spacing="15" Margin="0,0,0,20">
-                <Button x:Name="dateGuestButton" 
-        Text="2👤 - 16/05/25" 
-        FontSize="16" 
-        BackgroundColor="#f0f0f0" 
-        CornerRadius="15" 
-        Padding="15" 
-        TextColor="#555" 
-        Clicked="OnDateGuestButtonClicked" />
+                <Button x:Name="dateGuestButton"
+                        Text="№👤 - xx/xx/xx"
+                        FontSize="16"
+                        BackgroundColor="#f0f0f0"
+                        CornerRadius="15"
+                        Padding="15"
+                        TextColor="#555"
+                        Clicked="OnDateGuestButtonClicked" />
 
-                <Button Text="Харків, Україна" 
-                        FontSize="16" 
-                        BackgroundColor="#f0f0f0" 
-                        CornerRadius="15" Padding="15" 
-                        TextColor="#555" 
+                <Button x:Name="locationButton"
+                        Text="Оберіть місто"
+                        FontSize="16"
+                        BackgroundColor="#f0f0f0"
+                        CornerRadius="15"
+                        Padding="15"
+                        TextColor="#555"
                         Clicked="OnLocationButtonClicked" />
+
+                <Button Text="🔁 "
+                        WidthRequest="45"
+                        HeightRequest="45"
+                        BackgroundColor="#e0e0e0"
+                        CornerRadius="10"
+                        TextColor="Black"
+                        FontSize="15"
+                        Clicked="OnResetLocationClicked" /> 
             </HorizontalStackLayout>
 
-            <!-- Products Section -->
-            <Label Text="Оберіть улюблені продукти" FontSize="20" FontAttributes="Bold" Margin="0,4,10,10" TextColor="#333" />
+            <!-- Заголовок -->
+            <Label Text="Оберіть улюблені ресторани" FontSize="20" FontAttributes="Bold" Margin="0,4,10,10" TextColor="#333" />
+
+            <!-- Горизонтальний список ресторанів -->
             <ScrollView Orientation="Horizontal" Margin="0,0,0,20">
-                <HorizontalStackLayout Spacing="15">
-                    <!-- Product 1 -->
-                    <VerticalStackLayout Spacing="10">
-                        <Frame WidthRequest="150" HeightRequest="200" BackgroundColor="#ffffff" CornerRadius="15" Padding="0" HasShadow="True">
-                            <Image Source="https://alfresco.com.ua/wp-content/uploads/2025/02/alfresco-rest-25.jpg" Aspect="AspectFill" />
-                        </Frame>
-                        <HorizontalStackLayout Spacing="10" HorizontalOptions="Center">
-                            <Button Text="📅" FontSize="18"  BackgroundColor="Wheat" />
-                            <Button Text="♡" Clicked="OnHeartClicked" FontSize="18" TextColor="Red" BackgroundColor= "Wheat"  />
-                        </HorizontalStackLayout>
-                    </VerticalStackLayout>
-
-                    <!-- Product 2 -->
-                    <VerticalStackLayout Spacing="10">
-                        <Frame WidthRequest="150" HeightRequest="200" BackgroundColor="#ffffff" CornerRadius="15" Padding="0" HasShadow="True">
-                            <Image Source="https://img.freepik.com/free-photo/restaurant-interior_1127-3392.jpg?" Aspect="AspectFill" />
-                        </Frame>
-                        <HorizontalStackLayout Spacing="10" HorizontalOptions="Center">
-                            <Button Text="📅" FontSize="18"  BackgroundColor="Wheat" />
-                            <Button Text="♡" Clicked="OnHeartClicked" FontSize="18" TextColor="Red" BackgroundColor= "Wheat" />
-                        </HorizontalStackLayout>
-                    </VerticalStackLayout>
-
-                    <!-- Product 3 -->
-                    <VerticalStackLayout Spacing="10">
-                        <Frame WidthRequest="150" HeightRequest="200" BackgroundColor="#ffffff" CornerRadius="15" Padding="0" HasShadow="True">
-                            <Image Source="https://st4.depositphotos.com/8911320/31209/i/450/depositphotos_312096012-stock-photo-render-wooden-style-cafe-restaurant.jpg" Aspect="AspectFill" />
-                        </Frame>
-                        <HorizontalStackLayout Spacing="10" HorizontalOptions="Center">
-                            <Button Text="📅" FontSize="18"  BackgroundColor="Wheat" />
-                            <Button Text="♡" Clicked="OnHeartClicked" FontSize="18" TextColor="Red" BackgroundColor= "Wheat" />
-                        </HorizontalStackLayout>
-                    </VerticalStackLayout>
-
-                    <!-- Product 4 -->
-                    <VerticalStackLayout Spacing="10">
-                        <Frame WidthRequest="150" HeightRequest="200" BackgroundColor="#ffffff" CornerRadius="15" Padding="0" HasShadow="True">
-                            <Image Source="https://st3.depositphotos.com/9880800/18500/i/450/depositphotos_185007302-stock-photo-view-stylish-empty-cafe-arranged.jpg" Aspect="AspectFill" />
-                        </Frame>
-                        <HorizontalStackLayout Spacing="10" HorizontalOptions="Center">
-                            <Button Text="📅" FontSize="18"  BackgroundColor="Wheat" />
-                            <Button Text="♡" Clicked="OnHeartClicked" FontSize="18" TextColor="Red" BackgroundColor= "Wheat" />
-                        </HorizontalStackLayout>
-                    </VerticalStackLayout>
-
-                    <!-- Product 5 -->
-                    <VerticalStackLayout Spacing="10">
-                        <Frame WidthRequest="150" HeightRequest="200" BackgroundColor="#ffffff" CornerRadius="15" Padding="0" HasShadow="True">
-                            <Image Source="https://img.freepik.com/free-photo/restaurant-hall-with-red-brick-walls-wooden-tables-pipes-ceiling_140725-8504.jpg" Aspect="AspectFill" />
-                        </Frame>
-                        <HorizontalStackLayout Spacing="10" HorizontalOptions="Center">
-                            <Button Text="📅" FontSize="18"  BackgroundColor="Wheat" />
-                            <Button Text="♡" Clicked="OnHeartClicked" FontSize="18" TextColor="Red" BackgroundColor= "Wheat" />
-                        </HorizontalStackLayout>
-                    </VerticalStackLayout>
-
-                    <!-- Product 6 -->
-                    <VerticalStackLayout Spacing="10">
-                        <Frame WidthRequest="150" HeightRequest="200" BackgroundColor="#ffffff" CornerRadius="15" Padding="0" HasShadow="True">
-                            <Image Source="https://images.pexels.com/photos/941861/pexels-photo-941861.jpeg" Aspect="AspectFill" />
-                        </Frame>
-                        <HorizontalStackLayout Spacing="10" HorizontalOptions="Center">
-                            <Button Text="📅" FontSize="18"  BackgroundColor="Wheat" />
-                            <Button Text="❤️" Clicked="OnHeartClicked" FontSize="18"  BackgroundColor= "Wheat" />
-                        </HorizontalStackLayout>
-                    </VerticalStackLayout>
-                </HorizontalStackLayout>
+                <HorizontalStackLayout x:Name="RestaurantList" Spacing="15" />
             </ScrollView>
         </VerticalStackLayout>
 
-        <!-- Bottom Navigation -->
+        <!-- Нижній таб-бар -->
         <Grid Grid.Row="2" Padding="20" BackgroundColor="White">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*" />
@@ -117,12 +64,11 @@
                 <ColumnDefinition Width="*" />
                 <ColumnDefinition Width="*" />
             </Grid.ColumnDefinitions>
-            <Button Grid.Column="0" Text="🏠" BackgroundColor="Transparent" />
-            <Button Grid.Column="1" Text="🔍" BackgroundColor="Transparent" Clicked="OnSearchButtonClicked" />
-            <Button Grid.Column="2" Text="📅" BackgroundColor="Transparent" />
-            <Button Grid.Column="3" Text="❤️" BackgroundColor="Transparent" />
-            <Button Grid.Column="4" Text="🔔" BackgroundColor="Transparent" />
+            <Button Grid.Column="0" Text="🏠" FontSize="20" BackgroundColor="Transparent" />
+            <Button Grid.Column="1" Text="🔍" FontSize="20" BackgroundColor="Transparent" Clicked="OnSearchButtonClicked" />
+            <Button Grid.Column="2" Text="📅" FontSize="20" BackgroundColor="Transparent" />
+            <Button Grid.Column="3" Text="❤️" FontSize="20" BackgroundColor="Transparent" Clicked="OnSavedRestaurantButtonClicked" />
+            <Button Grid.Column="4" Text="🔔" FontSize="20" BackgroundColor="Transparent" />
         </Grid>
     </Grid>
-
 </ContentPage>

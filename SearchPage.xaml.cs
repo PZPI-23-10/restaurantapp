@@ -19,6 +19,10 @@ public partial class SearchPage : ContentPage
     {
         await Navigation.PushAsync(new MainPage());
     }
+    private async void OnSavedRestaurantButtonClicked(object sender, EventArgs e)
+    {
+        await Navigation.PushAsync(new SavedRestaurant());
+    }
 
 
     private async void OnSearchButtonClicked(object sender, EventArgs e)

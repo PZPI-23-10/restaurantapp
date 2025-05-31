@@ -1,37 +1,57 @@
-using Microsoft.Maui.Controls;
-using System;
-using System.Collections.Generic;
-using System.Linq;
+using System.Net.Http;
+using System.Net.Http.Json;
+using Newtonsoft.Json;
 
 namespace RestoranApp
 {
     public partial class LocationPopup : ContentPage
     {
-        private List<string> PopularCities = new List<string>
-        {
-            "Київ",
-            "Харків",
-            "Одеса",
-            "Львів",
-            "Дніпро"
-        };
+        private HttpClient _httpClient = new HttpClient();
 
         public LocationPopup()
         {
             InitializeComponent();
-            // Встановлюємо потрібну клавіатуру для Entry
             LocationEntry.Keyboard = Keyboard.Default;
-            // Спочатку показуємо всі популярні міста
-            LocationSuggestions.ItemsSource = PopularCities;
+
+            // Завантажити динамічні міста з API
+            LoadCitiesFromRestaurantsAsync();
+        }
+
+        private async void LoadCitiesFromRestaurantsAsync()
+        {
+            try
+            {
+                string url = "https://backend-restoran.onrender.com/api/Restaurant";
+                var response = await _httpClient.GetStringAsync(url);
+                var restaurants = JsonConvert.DeserializeObject<List<Restaurant>>(response);
+
+                var uniqueCities = restaurants
+                    .Select(r => r.City?.Trim())
+                    .Where(city => !string.IsNullOrEmpty(city))
+                    .Distinct()
+                    .OrderBy(city => city)
+                    .ToList();
+
+                LocationSuggestions.ItemsSource = uniqueCities;
+            }
+            catch (Exception ex)
+            {
+                await DisplayAlert("Помилка", "Не вдалося завантажити міста: " + ex.Message, "OK");
+            }
         }
 
         private void OnLocationTextChanged(object sender, TextChangedEventArgs e)
         {
+            if (LocationSuggestions.ItemsSource is not IEnumerable<string> allCities)
+                return;
+
             string query = e.NewTextValue.Trim().ToLower();
 
-            // Фільтруємо міста, які включають введений текст
-            var filteredCities = PopularCities.Where(city => city.ToLower().Contains(query)).ToList();
-            LocationSuggestions.ItemsSource = filteredCities;
+            var filtered = allCities
+                .Where(city => city.ToLower().Contains(query))
+                .ToList();
+
+            LocationSuggestions.ItemsSource = filtered;
         }
 
         private async void OnLocationSelected(object sender, SelectionChangedEventArgs e)

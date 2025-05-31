@@ -1,1 +1,0 @@
-C:\Users\maksk\OneDrive\Documents\GitHub\restaurantapp\RestoranApp.csproj;x64
